@@ -1,5 +1,6 @@
-project(helloworld)
 cmake_minimum_required(VERSION 3.0)
+
+project(helloworld)
 
 add_executable(executable executable.cc)
 
@@ -21,3 +22,5 @@ link_directories(mylib/lib)
 add_executable(sometest sometest.cc)
 
 target_link_libraries(sometest mylib)
+
+add_executable(labo_1 labo_1.cpp)
